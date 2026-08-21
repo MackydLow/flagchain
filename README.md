@@ -47,4 +47,3 @@ Each writeup follows a penetration testing report structure with methodology, MI
 - **Attacker OS:** Kali Linux (ARM64) running in UTM on Apple Silicon
 - **Network:** OpenVPN to platform — all traffic isolated within platform private network
 - **All machines are authorised practice targets on legitimate CTF platforms**
-
