@@ -1,0 +1,21 @@
+# Nmap 7.99 scan initiated Wed Sep 23 14:43:21 2026 as: /usr/lib/nmap/nmap -sV -sC -p- -T4 -oN /home/mack/flagchain/writeups/web/rootme-nmap.txt 10.82.156.196
+Nmap scan report for 10.82.156.196
+Host is up (0.040s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.13 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 9d:2a:ec:fa:2f:61:13:46:76:30:3f:14:f3:45:5a:bc (RSA)
+|   256 ce:75:65:fa:02:84:4a:9b:47:3f:7f:d9:d4:e5:52:82 (ECDSA)
+|_  256 5f:1a:27:8c:35:d0:8d:28:bf:33:47:9f:59:e7:27:4f (ED25519)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: HackIT - Home
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Sep 23 14:43:42 2026 -- 1 IP address (1 host up) scanned in 21.40 seconds
