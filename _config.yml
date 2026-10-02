@@ -2,3 +2,6 @@ theme: jekyll-theme-cayman
 title: FlagChain
 description: Professional CTF writeup portfolio by Mack Low
 show_downloads: false
+markdown: kramdown
+kramdown:
+  input: GFM
