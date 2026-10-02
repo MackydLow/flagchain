@@ -7,6 +7,7 @@ Each writeup follows a penetration testing report structure with methodology, MI
 ## Writeups
 
 ### Web Exploitation
+
 | Machine | Platform | Difficulty | Key Techniques |
 |---------|----------|-----------|----------------|
 | [RootMe](writeups/web/rootme.md) | TryHackMe | Easy | File upload bypass, SUID abuse |
@@ -15,6 +16,7 @@ Each writeup follows a penetration testing report structure with methodology, MI
 | [Simple CTF](writeups/web/simple-ctf.md) | TryHackMe | Easy | CMS exploitation, sudo misconfiguration |
 
 ### Network Services
+
 | Machine | Platform | Difficulty | Key Techniques |
 |---------|----------|-----------|----------------|
 | [Meow](writeups/network/meow.md) | HackTheBox | Very Easy | Telnet default credentials |
@@ -22,22 +24,26 @@ Each writeup follows a penetration testing report structure with methodology, MI
 | [Dancing](writeups/network/dancing.md) | HackTheBox | Very Easy | SMB null session |
 
 ### Windows Security
+
 | Machine | Platform | Difficulty | Key Techniques |
 |---------|----------|-----------|----------------|
 | [Blue](writeups/windows/blue.md) | TryHackMe | Easy | MS17-010 (EternalBlue), hash dumping |
 
 ### Linux Privilege Escalation
+
 | Machine | Platform | Difficulty | Key Techniques |
 |---------|----------|-----------|----------------|
 | [Kenobi](writeups/network/kenobi.md) | TryHackMe | Easy | SMB, NFS mount, PATH manipulation |
 | [Preignition](writeups/web/preignition.md) | HackTheBox | Very Easy | Web enumeration, default credentials |
 
 ### Steganography
+
 | Machine | Platform | Difficulty | Key Techniques |
 |---------|----------|-----------|----------------|
 | [Agent Sudo](writeups/steganography/agent-sudo.md) | TryHackMe | Easy | FTP brute force, steghide, CVE-2019-14287 |
 
 ### Cryptography / Misc
+
 | Machine | Platform | Difficulty | Key Techniques |
 |---------|----------|-----------|----------------|
 | [Overpass](writeups/crypto/overpass.md) | TryHackMe | Easy | Weak auth, JWT bypass, cron exploitation |
